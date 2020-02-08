@@ -1,0 +1,13 @@
+RewriteEngine on
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteRule ^products/barcode/([A-Za-z0-9]+)$ products/barcode/?id=$1 [L]
+RewriteRule ^user/reset-password/([A-Za-z0-9]+)$ user/reset-password/?token=$1 [L]
+RewriteRule ^user/reset-password/([A-Za-z0-9]+)$ user/reset-password/?token=$1 [L]
+RewriteRule ^products/([A-Za-z0-9]+)$ products/?id=$1 [L]
+RewriteRule ^suppliers/([A-Za-z0-9]+)$ suppliers/?id=$1 [L]
+RewriteRule ^categories/([A-Za-z0-9]+)$ categories/?id=$1 [L]
+RewriteRule ^employees/([A-Za-z0-9]+)$ employees/?id=$1 [L]
+RewriteRule ^invoices/([A-Za-z0-9]+)$ invoices/?id=$1 [L]
+RewriteRule ^invoice_items/([A-Za-z0-9]+)$ invoice_items/?id=$1 [L]
+RewriteRule ^temp_invoice_items/([A-Za-z0-9]+)$ temp_invoice_items/?id=$1 [L]
+RewriteRule ^temp_invoices/([A-Za-z0-9]+)$ temp_invoices/?id=$1 [L]

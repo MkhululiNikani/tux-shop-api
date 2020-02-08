@@ -1,0 +1,63 @@
+[26-Aug-2019 18:38:26 Africa/Johannesburg] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sm.ced.xulu@outlook.com' for key 'Email' in /home/mkhulbvg/public_html/picknscan/config/Database.php:67
+Stack trace:
+#0 /home/mkhulbvg/public_html/picknscan/config/Database.php(67): PDOStatement->execute(Array)
+#1 /home/mkhulbvg/public_html/picknscan/models/user.php(29): Database->insert('INSERT INTO use...', Array)
+#2 /home/mkhulbvg/public_html/picknscan/api/user/register/index.php(27): User->insertUser('Josayasi Don', 'Zibani ', '0797479052', 'sm.ced.xulu@out...', 'sha1:64000:18:v...')
+#3 {main}
+  thrown in /home/mkhulbvg/public_html/picknscan/config/Database.php on line 67
+[26-Aug-2019 18:47:24 Africa/Johannesburg] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sm.ced.xulu@outlook.com' for key 'Email' in /home/mkhulbvg/public_html/picknscan/config/Database.php:67
+Stack trace:
+#0 /home/mkhulbvg/public_html/picknscan/config/Database.php(67): PDOStatement->execute(Array)
+#1 /home/mkhulbvg/public_html/picknscan/models/user.php(29): Database->insert('INSERT INTO use...', Array)
+#2 /home/mkhulbvg/public_html/picknscan/api/user/register/index.php(27): User->insertUser('Elon', 'Musk', '0822222222', 'sm.ced.xulu@out...', 'sha1:64000:18:n...')
+#3 {main}
+  thrown in /home/mkhulbvg/public_html/picknscan/config/Database.php on line 67
+[27-Aug-2019 10:22:33 Africa/Johannesburg] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sm.ced.xulu@outlook.com' for key 'Email' in /home/mkhulbvg/public_html/picknscan/config/Database.php:67
+Stack trace:
+#0 /home/mkhulbvg/public_html/picknscan/config/Database.php(67): PDOStatement->execute(Array)
+#1 /home/mkhulbvg/public_html/picknscan/models/user.php(29): Database->insert('INSERT INTO use...', Array)
+#2 /home/mkhulbvg/public_html/picknscan/api/user/register/index.php(27): User->insertUser('Elon', 'Musk', '0826608822', 'sm.ced.xulu@out...', 'sha1:64000:18:O...')
+#3 {main}
+  thrown in /home/mkhulbvg/public_html/picknscan/config/Database.php on line 67
+[27-Aug-2019 10:22:35 Africa/Johannesburg] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sm.ced.xulu@outlook.com' for key 'Email' in /home/mkhulbvg/public_html/picknscan/config/Database.php:67
+Stack trace:
+#0 /home/mkhulbvg/public_html/picknscan/config/Database.php(67): PDOStatement->execute(Array)
+#1 /home/mkhulbvg/public_html/picknscan/models/user.php(29): Database->insert('INSERT INTO use...', Array)
+#2 /home/mkhulbvg/public_html/picknscan/api/user/register/index.php(27): User->insertUser('Elon', 'Musk', '0826608822', 'sm.ced.xulu@out...', 'sha1:64000:18:x...')
+#3 {main}
+  thrown in /home/mkhulbvg/public_html/picknscan/config/Database.php on line 67
+[27-Aug-2019 10:22:36 Africa/Johannesburg] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sm.ced.xulu@outlook.com' for key 'Email' in /home/mkhulbvg/public_html/picknscan/config/Database.php:67
+Stack trace:
+#0 /home/mkhulbvg/public_html/picknscan/config/Database.php(67): PDOStatement->execute(Array)
+#1 /home/mkhulbvg/public_html/picknscan/models/user.php(29): Database->insert('INSERT INTO use...', Array)
+#2 /home/mkhulbvg/public_html/picknscan/api/user/register/index.php(27): User->insertUser('Elon', 'Musk', '0826608822', 'sm.ced.xulu@out...', 'sha1:64000:18:n...')
+#3 {main}
+  thrown in /home/mkhulbvg/public_html/picknscan/config/Database.php on line 67
+[27-Aug-2019 10:22:36 Africa/Johannesburg] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sm.ced.xulu@outlook.com' for key 'Email' in /home/mkhulbvg/public_html/picknscan/config/Database.php:67
+Stack trace:
+#0 /home/mkhulbvg/public_html/picknscan/config/Database.php(67): PDOStatement->execute(Array)
+#1 /home/mkhulbvg/public_html/picknscan/models/user.php(29): Database->insert('INSERT INTO use...', Array)
+#2 /home/mkhulbvg/public_html/picknscan/api/user/register/index.php(27): User->insertUser('Elon', 'Musk', '0826608822', 'sm.ced.xulu@out...', 'sha1:64000:18:W...')
+#3 {main}
+  thrown in /home/mkhulbvg/public_html/picknscan/config/Database.php on line 67
+[27-Aug-2019 10:22:45 Africa/Johannesburg] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sm.ced.xulu@outlook.com' for key 'Email' in /home/mkhulbvg/public_html/picknscan/config/Database.php:67
+Stack trace:
+#0 /home/mkhulbvg/public_html/picknscan/config/Database.php(67): PDOStatement->execute(Array)
+#1 /home/mkhulbvg/public_html/picknscan/models/user.php(29): Database->insert('INSERT INTO use...', Array)
+#2 /home/mkhulbvg/public_html/picknscan/api/user/register/index.php(27): User->insertUser('Elon', 'Musk', '0826608822', 'sm.ced.xulu@out...', 'sha1:64000:18:8...')
+#3 {main}
+  thrown in /home/mkhulbvg/public_html/picknscan/config/Database.php on line 67
+[27-Aug-2019 10:37:33 Africa/Johannesburg] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sm.ced.xulu@outlook.com' for key 'Email' in /home/mkhulbvg/public_html/picknscan/config/Database.php:67
+Stack trace:
+#0 /home/mkhulbvg/public_html/picknscan/config/Database.php(67): PDOStatement->execute(Array)
+#1 /home/mkhulbvg/public_html/picknscan/models/user.php(29): Database->insert('INSERT INTO use...', Array)
+#2 /home/mkhulbvg/public_html/picknscan/api/user/register/index.php(27): User->insertUser('Elon', 'Musk', '0826608822', 'sm.ced.xulu@out...', 'sha1:64000:18:0...')
+#3 {main}
+  thrown in /home/mkhulbvg/public_html/picknscan/config/Database.php on line 67
+[27-Aug-2019 10:37:37 Africa/Johannesburg] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sm.ced.xulu@outlook.com' for key 'Email' in /home/mkhulbvg/public_html/picknscan/config/Database.php:67
+Stack trace:
+#0 /home/mkhulbvg/public_html/picknscan/config/Database.php(67): PDOStatement->execute(Array)
+#1 /home/mkhulbvg/public_html/picknscan/models/user.php(29): Database->insert('INSERT INTO use...', Array)
+#2 /home/mkhulbvg/public_html/picknscan/api/user/register/index.php(27): User->insertUser('Elon', 'Musk', '0826608822', 'sm.ced.xulu@out...', 'sha1:64000:18:3...')
+#3 {main}
+  thrown in /home/mkhulbvg/public_html/picknscan/config/Database.php on line 67
